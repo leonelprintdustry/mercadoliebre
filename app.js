@@ -12,6 +12,8 @@ app.listen(3010, () => {
     console.log('Servidor corriendo en el puerto 3010')
 });
 
+app.listen(PORT,()=>console.log('servidor corriendo en el puerto'+PORT));
+
 app.get('/home', (req,res) => {
     res.sendFile(path.join(__dirname,'/views/home.html'));
 });

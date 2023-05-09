@@ -17,9 +17,14 @@ body {
     background-color: #fff;
 }
 
+.banner {
+    margin-top: 190px;
+    width: 100%;
+}
+
 main {
     margin: auto;
-    margin-top: 230px;
+    margin-top: 30px;
 }
 
 article {
@@ -29,6 +34,10 @@ article {
     background-color: white;
     text-align: center;
     border-radius: 5%;
+}
+
+h3 {
+    padding-left: 10px;
 }
 
 
@@ -74,7 +83,7 @@ p {
 footer {
     text-align: center;
     margin-top: 15px;
-    background-color: #Eac926;
+    background-color: #ebebeb;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -197,6 +206,9 @@ article:hover {
     .search-bar {
         content-visibility: hidden;
     }
+    .banner {
+        content-visibility: hidden;
+    }
 }
 
 @media (min-width: 720px) {
@@ -224,11 +236,14 @@ article:hover {
     }
     footer {
         display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .footer-top {
+        display: flex;
         flex-direction: row;
         justify-content: space-around;
-        padding: 20px;
-        height: 300px;
-        
+        padding: 20px;   
     }
     .tarjeta-credito {
         display: flex;
@@ -243,9 +258,11 @@ article:hover {
         flex-direction: column;
     }
     .copyright {
-        position: relative;
         right: 80%;
         top: 70%;
+    }
+    .login, .register {
+        padding-top: 160px;
     }
 
 }
@@ -261,12 +278,10 @@ article:hover {
 }
 
 @media (min-width: 480px) {
+
     .main-header-mobile {
         display: flex;
-    }   
-}
-
-@media (min-width: 480px) {
+    }  
     #Basado-en-tu-ultima-visita, #Seccion-de-Ofertas {
        display: flex;
        flex-wrap: wrap;
@@ -275,6 +290,15 @@ article:hover {
     }   
     .img-articulos {
         height: 20vh;
+    }
+    .login, .register {
+        padding-top: 180px;
+    }
+}
+
+@media (max-width: 480px) {
+    .login, .register {
+        padding-top: 190px;
     }
 }
 

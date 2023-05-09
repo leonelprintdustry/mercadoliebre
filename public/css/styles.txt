@@ -4,8 +4,10 @@ Amarillo #EAC926;
 Azul #03264C;
 Celeste #1259c3;
 Gris oscuro #666;
-Gris calro #666;
+Gris calro #ebebeb;
 Verde #39b54a;
+
+
 
 Consultas a los profes: 
 

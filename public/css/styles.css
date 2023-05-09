@@ -55,7 +55,8 @@ p {
 
 .precios {
     font-size: 18px;
-    font-weight: bold
+    font-weight: bold;
+    padding-right: 5px;
 }
 
 .descuentos {
@@ -114,6 +115,9 @@ footer {
     margin: 0px;
     padding: 5px;
     box-sizing: border-box;
+    position: relative;
+    top: -30px;
+    left: 100px;
 }
 
 .fa-solid.fa-truck-fast:hover {
@@ -121,6 +125,9 @@ footer {
     border: 2px red solid;
     transform: scale(1.5);
     transform: rotate(-0.25turn);
+    position: relative;
+    top: -30px;
+    left: 100px;
 }
 
 
